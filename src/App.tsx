@@ -22,7 +22,7 @@ function App() {
       {data.map((todo: any) => (
         <div key={todo.id}>
           <h5>ID: {todo.id}</h5>
-          <p>Title: {todo.title}</p>
+          <h6>Title: {todo.title}</h6>
           <hr />
         </div>
       ))}
